@@ -434,6 +434,30 @@ var FORMATS = map[int]Format{
 		Itag:          303,
 		AudioBitrate:  0,
 	},
+	313: Format{
+		Extension:     "webm",
+		Resolution:    "2160p",
+		VideoEncoding: "VP9",
+		AudioEncoding: "",
+		Itag:          313,
+		AudioBitrate:  0,
+	},
+	315: Format{
+		Extension:     "webm",
+		Resolution:    "2160p",
+		VideoEncoding: "VP9",
+		AudioEncoding: "",
+		Itag:          315,
+		AudioBitrate:  0,
+	},
+	337: Format{
+		Extension:     "webm",
+		Resolution:    "2160p",
+		VideoEncoding: "VP9.2",
+		AudioEncoding: "",
+		Itag:          337,
+		AudioBitrate:  0,
+	},
 	// DASH (audio only)
 	139: Format{
 		Extension:     "mp4",
